@@ -7,7 +7,7 @@ import sys
 
 
 class Aug_Translation():
-    def __init__(self, comments, language="random", orig_language="en", labels=None, classes=None, output_path="translated.csv", num_translations=1):
+    def __init__(self, comments, language="es", orig_language="en", labels=None, classes=None, output_path="translated.csv", num_translations=1):
         self.comments = comments
         self.language = language
         self.labels = labels 
