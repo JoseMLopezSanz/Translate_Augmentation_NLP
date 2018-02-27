@@ -134,7 +134,7 @@ class Aug_Translation():
         self.create_output_csv()
         sys.stdout.flush()
         self.translate_all_docs()
-        Print("Finished")
+        print("Finished")
         
     def save(self):
         self.df.to_csv(self.output_path, index=False)
